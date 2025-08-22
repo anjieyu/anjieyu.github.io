@@ -23,6 +23,8 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+website: https://anjieyu.github.io
+baseurl: ""
 
 # Build settings
 markdown: kramdown
