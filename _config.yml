@@ -58,6 +58,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-jupyter-notebook
 
 author:
   name   : "An-Jie Yu"
