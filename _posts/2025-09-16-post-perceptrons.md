@@ -12,6 +12,10 @@ tags:
 # perceptrons
 A Python project implementing simple perceptron classifiers by hand
 
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% include repository/repo.liquid repository="anjieyu/perceptrons" %}
+</div>
+
 ## How to run
 1. Download or clone the Git repository with ```git clone https://github.com/anjieyu/perceptrons.git```
 2. Navigate to the project directory with the command ```cd perceptrons```
