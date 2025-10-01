@@ -52,5 +52,6 @@ Since a perceptron is created for each training set, each trained perceptron is 
 
 In order to visualize the decision boundaries learned by each perceptron, the samples for the training and test datasets are graphed separately in 2 different matplotlib graph outputs. The decision boundary is calculated from the weights and the bias term learned by the perceptron from each training set. This boundary is graphed on each graph for each learned perceptron. These graphs usually show an angled boundary which is fitted to the training data, and is not perfectly aligned at x = 5. This is a good way to show how perceptrons generalize according to their training data, and try to learn or approximate functions from patterns in data.
 
-![Image](/graphs/set.test_perceptron_6.png)
-![Image](/graphs/set6.train_perceptron_6.png)
+![Image]({{ site.baseurl }}/assets/images/graph-test.png)
+![Image]({{ site.baseurl }}/assets/images/graph-train.png)
+
