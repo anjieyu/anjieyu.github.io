@@ -1,6 +1,8 @@
 main:
   - title: "Posts"
     url: /posts/
+  - title: "Articles"
+    url: /articles/
   # - title: "Repositories"
   #   url: /repositories/
   - title: "Categories"
