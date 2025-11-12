@@ -12,9 +12,7 @@ I wrote this article for the Lakeridge Newspacer in 2023. This article is about 
         {% include figure.liquid loading="eager" path="assets/images/news-1.png" title="Lake Oswego Article" class="img-fluid rounded z-depth-1" style="text-align: center" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 
 
 Writing this article made me think of how we can use technology to spread information and provide learning resources.
