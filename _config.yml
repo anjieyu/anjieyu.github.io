@@ -59,6 +59,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-jupyter-notebook
+  - jekyll-imagemagick
 
 author:
   name   : "An-Jie Yu"
@@ -93,6 +94,11 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/anjieyu"
 
+collections:
+  articles:
+    output: true
+    permalink: /articles/:title/
+
 defaults:
   # _posts
   - scope:
@@ -119,3 +125,22 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
+#   convert -version
+imagemagick:
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/images/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+    - ".gif"
+  output_formats:
+    webp: "-quality 85"
