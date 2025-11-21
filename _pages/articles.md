@@ -1,6 +1,7 @@
 ---
 permalink: /articles/
 title: Articles
+layout: archive
 ---
 
 <!-- pages/projects.md -->
@@ -13,7 +14,7 @@ title: Articles
   {% assign categorized_projects = site.articles %}
   {% assign sorted_projects = categorized_projects %}
   <!-- Generate cards for each project -->
-  <div class="row row-cols-1 row-cols-md-3">
+  <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-between; align-items: center;">
     {% for project in sorted_projects %}
       {% include articles.liquid %}
     {% endfor %}
@@ -27,7 +28,7 @@ title: Articles
 
   <!-- Generate cards for each project -->
 
-  <div class="row row-cols-1 row-cols-md-3">
+  <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-between; align-items: center;">
     {% for project in sorted_projects %}
       {% include articles.liquid %}
     {% endfor %}
