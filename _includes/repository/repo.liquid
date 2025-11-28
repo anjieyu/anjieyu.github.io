@@ -31,12 +31,12 @@
   {% assign max_lines = 2 %}
 {% endif %}
 
-<div class="repo p-2 text-center">
+<div style="padding: 0.5rem; text-align: center; flex: 1 1 300px; max-width: 500px;">
   <a href="https://github.com/{{ include.repository }}">
     <img
-      class="only-light w-100"
+      style="width: 100%; height: auto;"
       alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}"
     >
   </a>
 </div>

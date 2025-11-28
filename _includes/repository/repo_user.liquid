@@ -18,12 +18,12 @@
     {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
 {% endcase %}
 
-<div class="repo p-2 text-center">
+<div style="padding: 0.5rem; text-align: center; flex: 1 1 300px; max-width: 500px;">
   <a href="https://github.com/{{ include.username }}">
     <img
-      class="only-light w-100"
+      style="width: 100%; height: auto;"
       alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true"
+      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}"
     >
   </a>
 </div>
