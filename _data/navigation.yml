@@ -3,8 +3,8 @@ main:
     url: /posts/
   - title: "Articles"
     url: /articles/
-  # - title: "Repositories"
-  #   url: /repositories/
+  - title: "Repositories"
+    url: /repositories/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
